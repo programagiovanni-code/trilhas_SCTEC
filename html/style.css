@@ -1,0 +1,209 @@
+:root {
+    background-color: #132C10;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F0EFF4;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* -----Cabeçalho----- */ 
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.div_header {
+    background-color: #659b5e;
+    border: black solid 2px;
+    border-radius: 8px;
+    color: black;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 1.2em;
+}
+
+#subtitulo {
+    font-size: 75%;
+    color: #132C10
+}
+
+nav {
+    gap: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: aliceblue;
+    border: 2px black solid;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: rgb(32, 239, 13);
+}
+
+a {
+    color: #659b5e;
+}
+
+/* ----- Mains ----- */
+
+section {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: #F0EFF4;
+    color: black;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px black;
+}
+
+section h2 {
+    border-bottom: 2px solid #659b5e;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* ----- Habilidades ----- */
+
+.listaHabilidades {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.titulohab {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #132C10;
+}
+
+.divhab {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px;
+    border: 2px solid #132C10;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.sub-habilidades h4 {
+    margin-top: 0.5rem;
+}
+
+.topicohab {
+  list-style-type: square;
+    margin-left: 1.5rem;
+}
+
+
+/* ----- Projetos ----- */
+
+.lista-projetos {
+    list-style: none; /* Substitui o antigo type="none" do HTML */
+    padding-left: 0;
+}
+
+.lista-projetos li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* ----- Footer ----- */
+footer {
+    margin-top: 2rem;
+    background-color: rgb(177, 174, 174);
+    padding: 1.5rem;
+    border-radius: 7px;
+    color: black;
+
+}
+
+.formulario-contato {
+    margin: 1rem 0;
+}
+
+.formulario-contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 400px;
+}
+
+.formulario-contato input, 
+.formulario-contato textarea {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #333;
+    font-family: inherit;
+}
+
+.formulario-contato button {
+    padding: 0.5rem;
+    background-color: #132C10;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario-contato button:hover {
+    background-color: #659b5e;
+}
+
+.rodape-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    border-top: 1px solid #333;
+    padding-top: 1rem;
+}
+
+.rodape-info a {
+    color: #132C10;
+    font-weight: bold;
+}
+
+.contato-final {
+    display: inline-flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+#final {
+    text-align: right;
+}
